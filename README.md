@@ -31,6 +31,15 @@ And if you are not, don't worry! We have got you covered! There are 3 steps to c
 
 <img width="699" alt="2" src="https://user-images.githubusercontent.com/16270682/134592832-08d6f08f-b1ad-43dd-9d5f-438e24cbf924.PNG">
 
+## Step 2: Create a Spring Boot application
+
+#### Method 1:
+
+Go to [Spring Initializr](<https://start.spring.io/>) page and generate a Maven project with default specifications 
+
+
+
+
 ## Workshop Resources
 
 - Login/Sign Up for IBM Cloud: https://ibm.biz/appsecurity
