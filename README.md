@@ -1,2 +1,2 @@
-# appid-spring-boot-example
-Sample application to demonstrate the usage of App ID Spring Boot Starter
+# Easily Secure your Spring boot app with Low code No Code
+
