@@ -31,14 +31,17 @@ And if you are not, don't worry! We have got you covered! There are 3 steps to c
 
 <img width="699" alt="2" src="https://user-images.githubusercontent.com/16270682/134592832-08d6f08f-b1ad-43dd-9d5f-438e24cbf924.PNG">
 
-## Step 2: Create a Spring Boot application
+## Step 3: Create a Spring Boot application
 
 #### Method 1:
 
-Go to [Spring Initializr](<https://start.spring.io/>) page and generate a Maven project with default specifications 
+Go to [Spring Initializr](<https://start.spring.io/>) page and generate a Maven project with default specifications. Click on generate to download the project. Unzip the file to a path of your choice.
 
+<img width="650" alt="a" src="https://user-images.githubusercontent.com/16270682/134948639-dd9012c5-d06d-48e0-80fc-a9fd716326c8.PNG">
 
+#### Method 2:
 
+From workshop [Git Repository](<https://start.spring.io/>)
 
 ## Workshop Resources
 
