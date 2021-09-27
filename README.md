@@ -47,6 +47,38 @@ From workshop's [Git Repository](<https://github.com/IBMDeveloperMEA/Easily-Secu
 
 ## Step 4:  Add the App ID service configuration to the app
 
+4.1 - From App ID Dashboard, select Applications in the left pane, click on add a new application. 
+
+<img width="927" alt="c" src="https://user-images.githubusercontent.com/16270682/134955233-3e8f249a-c77a-4482-bb65-b08985b97609.PNG">
+
+4.2 - Give your application a unique name and click on create.
+
+<img width="623" alt="d" src="https://user-images.githubusercontent.com/16270682/134955253-bfb9bdf0-233a-4de8-962b-bdc16c06a7da.PNG">
+
+4.3 - Click on “View credentials” to display the application credentials.
+
+<img width="735" alt="e" src="https://user-images.githubusercontent.com/16270682/134955381-3bbed03d-5a0d-4d72-b550-a1d76e5cdce2.PNG">
+
+4.4 - Edit the Spring Initializr project you created in step 3, and add the application credentials to configure App ID by going to path -> src/main/resources/application.yml file with the following property names:
+
+          spring:
+             security:
+               oauth2:
+                client:
+                 registration:
+                  appid:
+                  clientId: <<clientId>>
+                  clientSecret: <<clientSecret>>
+                region: <<region>>
+              tenantId: <<tenantId>>
+
+
+  
+## Step 5: Add the web redirect URL in App ID
+
+Go to Manage Authentication > Authentication Settings and Add http://localhost:8080/login/oauth2/code/appid as your web redirect URL.
+
+<img width="890" alt="f" src="https://user-images.githubusercontent.com/16270682/134957525-070053dc-e65a-4ca1-ba89-0ee30aeb077b.PNG">
 
 ## Workshop Resources
 
