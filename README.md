@@ -41,7 +41,12 @@ Go to [Spring Initializr](<https://start.spring.io/>) page and generate a Maven 
 
 #### Method 2:
 
-From workshop [Git Repository](<https://start.spring.io/>)
+From workshop's [Git Repository](<https://github.com/IBMDeveloperMEA/Easily-Secure-your-Spring-boot-app-with-Low-code-No-Code>) click on code and download zip file. Unzip the file to a path of your choice.
+
+<img width="651" alt="b" src="https://user-images.githubusercontent.com/16270682/134949825-6c2c8d98-23b7-46bb-a365-470b624a91d5.PNG">
+
+## Step 4:  Add the App ID service configuration to the app
+
 
 ## Workshop Resources
 
