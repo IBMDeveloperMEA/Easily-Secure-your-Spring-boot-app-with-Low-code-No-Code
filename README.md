@@ -164,17 +164,17 @@ public class UserController {
 
 9.1 - Create index.html file in /appid-spring-boot-example/src/main/resources/static, and add the following code, which shows the logged-in user information:
 
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Spring Boot App ID Sample</title>
-        <link type="text/css" href="css/style.css" rel="stylesheet" />
-        <script type="text/javascript" src="/webjars/jquery/jquery.min.js"></script>
-        <script type="text/javascript" src="/webjars/js-cookie/js.cookie.js"></script>
-        <script type="text/javascript">
-            $.ajaxSetup({
+            <!DOCTYPE html>
+              <html lang="en">
+           <head>
+                <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>Spring Boot App ID Sample</title>
+              <link type="text/css" href="css/style.css" rel="stylesheet" />
+              <script type="text/javascript" src="/webjars/jquery/jquery.min.js"></script>
+             <script type="text/javascript" src="/webjars/js-cookie/js.cookie.js"></script>
+               <script type="text/javascript">
+                 $.ajaxSetup({
                 beforeSend : function(xhr, settings) {
                     if (settings.type == 'POST' || settings.type == 'PUT' || settings.type == 'DELETE' || settings.type == 'GET') {
                         if (!(/^http:.*/.test(settings.url) || /^https:.*/.test(settings.url))) {
