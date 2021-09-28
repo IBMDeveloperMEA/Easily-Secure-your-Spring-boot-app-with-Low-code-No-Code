@@ -265,7 +265,9 @@ Your Spring Boot project should now look like:
 - Workshop Replay: https://www.crowdcast.io/e/journey-to-low-code-no-code-app-security-2 
 
 ## Done with the workshop? Here are some things you can try further 
-
+- https://developer.ibm.com/patterns/deploy-a-microservices-app-to-ibm-cloud-code-engine/
+- https://developer.ibm.com/patterns/build-digital-bank-microservices-kubernetes/
+- https://developer.ibm.com/patterns/deploy-spring-boot-microservices-on-kubernetes/
  
 
 ## Links to the next sessions in "Journey to Low Code/ No Code Application Security"
