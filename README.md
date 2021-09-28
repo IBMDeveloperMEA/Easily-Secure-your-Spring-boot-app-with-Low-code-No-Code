@@ -246,7 +246,8 @@ public class UserController {
 
 Your Spring Boot project should now look like:
 
-# PLEASE ADD IMAGE HERE KARIM 🤭
+<img alt="f" src="https://github.com/IBMDeveloperMEA/Easily-Secure-your-Spring-boot-app-with-Low-code-No-Code/blob/master/vscode-spring-app-id.JPG">
+
 
 ## Step 10: Build and run the app
 
