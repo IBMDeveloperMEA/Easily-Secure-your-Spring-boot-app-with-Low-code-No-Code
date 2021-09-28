@@ -2,7 +2,8 @@
 
 ## Pre-requisite:
 
-
+--Maven installed in your PC (https://maven.apache.org/)
+--Java installed in your PC (https://adoptopenjdk.net/releases.html)
 
 ## Step 1: Sign-up/Login to IBM Cloud
 
@@ -250,8 +251,8 @@ Your Spring Boot project should now look like:
 
 10.1 - Build and run your app using the following commands:
 
-mvn clean
-mvn package spring-boot:run
+    mvn clean
+    mvn package spring-boot:run
 
 10.2 After the application is running, open a browser, and go to http://localhost:8080. It will take you to a login screen.
 
