@@ -87,14 +87,14 @@ From workshop's [Git Repository](<https://github.com/IBMDeveloperMEA/Easily-Secu
 6.1 - From your project go to your pom.xml file and add the following dependencies 
 
 
-<dependencies>
+    <dependencies>
     <!-- App ID Starter-->
     <dependency>
         <groupId>com.ibm.cloud.appid</groupId>
         <artifactId>appid-spring-boot-starter</artifactId>
         <version>0.0.5</version>
-    </dependency>
-    <dependency>
+     </dependency>
+        <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
@@ -126,12 +126,12 @@ From workshop's [Git Repository](<https://github.com/IBMDeveloperMEA/Easily-Secu
 
 Create a SecurityConfiguration.java class, and add the following code:
 
-@Configuration
-@EnableWebSecurity
-public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
+    @Configuration
+    @EnableWebSecurity
+       public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
-    @Override
-    protected void configure(HttpSecurity http) throws Exception {
+      @Override
+        protected void configure(HttpSecurity http) throws Exception {
         http
         .authorizeRequests()
         .antMatchers("/login**", "/user", "/userInfo").authenticated()
@@ -145,8 +145,8 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
 8.1 - To add REST endpoints, create a UserController.java class, and add the following code:
 
-@RestController
-public class UserController {
+      @RestController
+        public class UserController {
 
     @RequestMapping("/user")
     public Principal user(@AuthenticationPrincipal Principal principal) {
